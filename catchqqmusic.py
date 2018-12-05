@@ -18,7 +18,7 @@ browser = webdriver.Chrome(chrome_options=chromeOptions)
 
 # Step 1: Find my elements in tencent music.
 # below my music list - need change each time load a new list to netease
-browser.get("https://y.qq.com/n/yqq/playlist/2806025107.html#stat=y_new.profile.create_playlist.love.click&dirid=201")
+browser.get("https://y.qq.com/....")  # input your url here!
 while 1:
     time.sleep(2) # wait until web is loaded. adjust by machine-depenedent
     mylist = browser.find_elements(By.CLASS_NAME, 'songlist__list')[0]
